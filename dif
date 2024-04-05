@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Compare two files with diff and format the output
+file=$1
+
+colordiff -u io/$file expected/$file
