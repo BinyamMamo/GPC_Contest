@@ -1,0 +1,8 @@
+# directories
+.vscode/
+failed/
+
+
+# files
+main.py
+in.in
