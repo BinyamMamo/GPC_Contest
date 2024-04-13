@@ -1,3 +1,8 @@
+"""
+LCD Display 
+
+PC/UVa IDs: 110104/706 Popularity: A Success rate: average Level: 1
+"""
 letters = [
     [[" ", "-", " "], ["|", " ", "|"], [" ", " ", " "], ["|", " ", "|"], [" ", "-", " "]],
     [[" ", " ", " "], [" ", " ", "|"], [" ", " ", " "], [" ", " ", "|"], [" ", " ", " "]],
@@ -37,7 +42,8 @@ def print_digital(num, size=1, spacing=1):
 
 if __name__ == '__main__':
     # print_digital(1234567890, 5, 10)
-    while user_input := input("Enter a valid printing size and number: "):
+    # while user_input := input("Enter a valid printing size and number: "):
+    while user_input := input(""):
         size, num = user_input.split(" ")
         num, size = int(num), int(size)
         if not size:
