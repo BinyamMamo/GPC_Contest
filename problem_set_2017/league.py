@@ -10,7 +10,7 @@ def factorial(n):
 
 
 def max_score(teams):
-    return 2 * factorial(teams - 1) * 3
+    return 6 * (teams - 1)
 
 
 def main():
